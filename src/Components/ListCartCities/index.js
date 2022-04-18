@@ -1,5 +1,5 @@
 import React from 'react';
-import ChartCity from '../ChartCity';
+import ChartCity from '../chart';
 
 function ListCartCities(props) {
   const {cities} = props;
@@ -14,7 +14,6 @@ function ListCartCities(props) {
             </div>
             <div className="message-body">
               <ChartCity DSVACINAmn={(city?.DSVACINAmn)? city?.DSVACINAmn : []} />
-              {/* {city.DSVACINAmn?.map(vac => (<span key={vac.name} className="tag is-success">{`${vac.name} Qt:${vac.qt}`}</span>))} */}
             </div>
           </article>   
         </div>
