@@ -39,7 +39,6 @@ function ChartCity(props) {
 
   const labels = ['Total'];
   const datasets = props.DSVACINAmn?.map((item, index) => {
-    console.log(item)
     return {
       label: item.name,
       data: [item.qt],
@@ -48,6 +47,7 @@ function ChartCity(props) {
       borderWidth: 1
     }
   })
+  
   const data = {
   labels,
   datasets

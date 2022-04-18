@@ -1,5 +1,5 @@
 import React from 'react';
-import ChartCity from '../chart';
+import ChartCity from '../ChartCity';
 
 function ListCartCities(props) {
   const {cities} = props;

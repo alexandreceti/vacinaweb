@@ -18,7 +18,6 @@ export default function HomePage() {
         isVisible: false,
       }
     })
-    console.log(newCities)
       
     setCities(newCities)
   };
@@ -33,7 +32,6 @@ export default function HomePage() {
   function filterCities() {
     if (filter !== '') {
       const newList = cities.filter((city) => {
-        console.log(city.name?.toUpperCase())
         return (city.name?.toUpperCase().includes(filter.toUpperCase()))
       })
       return newList
@@ -48,17 +46,16 @@ export default function HomePage() {
   }
 
   function selectCity(event) {
-    console.log(event.target.innerText)
+    // console.log(event.target.innerText)
     if (event.target.nodeName === 'LI'){
       const cityLocation = event.target.innerText
       const [selectCity] = cities.filter((item) => {
-        // console.log('filter: ', item)
         return ( item.name === cityLocation )
       })
       selectCity.isVisible = !selectCity.isVisible;
       setFilter('')
       setCities([... cities, cityLocation])
-      console.log(selectCity);
+      // console.log(selectCity);
     }
   }
 
