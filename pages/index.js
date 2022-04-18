@@ -1,6 +1,6 @@
 import { useState } from "react"
-import ListCartCities from "../components/ListCartCities"
-import ListCities from "../components/ListCities/ListCities"
+import ListCartCities from "../src/Components/ListCartCities"
+import ListCities from "../src/Components/ListCities/ListCities"
 
 export default function HomePage() {
 

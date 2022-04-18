@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Script from 'next/script'
-import NavBar from '../components/Shared/navbar'
-import '../styles/globals.scss'
+import NavBar from '../src/components/Shared/NavBar'
+import '../src/styles/globals.scss'
 
 export default function MyApp({ Component, pageProps }) {
   return (
