@@ -1,5 +1,5 @@
 {
-  "name": "vacinasweb",
+  "name": "vaccine",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,9 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-regular-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "bulma": "^0.9.3",
+    "chart.js": "^3.7.1",
     "next": "12.1.5",
     "react": "18.0.0",
+    "react-chartjs-2": "^4.1.0",
     "react-dom": "18.0.0"
   },
   "devDependencies": {
