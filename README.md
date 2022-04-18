@@ -27,13 +27,13 @@ https://coronavirus.saude.mg.gov.br/dadosabertos
 Aplicação criada com o [Nextjs App](https://nextjs.org/docs), sendo assim para executar, basta clonar o projeto.
 
 ```shell
-git clone https://github.com/alexandreceti/vaccine_distribution.git
+git clone https://github.com/alexandreceti/vacinaweb.git
 ```
 
 Acesse a pasta do projeto e instalar dependencias do projeto:
 
 ```shell
-cd vaccine_distribution
+cd vacinaweb
 npm install
 ```
 
